@@ -1,0 +1,21 @@
+{
+  "name": "binary-writer",
+  "version": "0.1.8",
+  "description": "",
+  "author": "Liam Doherty",
+  "dependencies": {},
+  "scripts": {
+    "prepublish": "babel binary_writer.js -o binary_writer_dist.js --source-maps inline"
+  },
+  "license": "MIT",
+  "main": "binary_writer_dist",
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-eslint": "^6.0.4",
+    "babel-plugin-transform-class-properties": "^6.10.2",
+    "babel-plugin-transform-flow-strip-types": "^6.8.0",
+    "babel-preset-es2015": "^6.9.0",
+    "eslint": "^2.13.0",
+    "eslint-plugin-flow-vars": "^0.4.0"
+  }
+}
